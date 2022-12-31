@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Encriptador de Fran</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styleC.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merienda:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    </head>
+<body>
+  <h1 class="titulo">Encriptador de textos</h1>
+
+  <main class="main">
+
+    <section class="form-box">
+      <form action="">
+        <label for="input-texto">Por favor coloca solo letras minúsculas sin acentos</label>
+        <div class="input-grupo">
+            <textarea type="text" id="input-texto" class="textarea1" autofocus placeholder="Ingrese texto aquí" style="width:500px; height: 300px;"></textarea>
+            <div class="botones">
+                <input class="btn" type="button" value="&#128274;¡Encriptar!" id="btn-encriptar"> 
+                <input class="btn" type="button" value="&#128275;¡Desencriptar!" id="btn-desencriptar">
+            </div>
+        </div>
+      </form>
+    </section>
+  
+    <section class="msg-box">
+      <h2 class="enc">Mensaje encriptado:</h2>
+      <textarea class="textarea2" type="text" id="msg" style="width:500px; height: 300px;"></textarea> 
+      <button class="btn1" type="button" id="btn-copy" onclick="copyToClipBoard()"><i class="fas fa-copy"></i>Copiar</button>
+    </section>
+  </main>
+
+  <footer>
+    <img src="logo.png"; width="10%">
+    <legend class="copyright">&copy Copyright Fran
+    </legend>
+
+    <ul class="social">
+      <li><a href="https://www.facebook.com/pasas7?mibextid=ZbWKwL"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/francisco-cuauht%C3%A9moc-mart%C3%ADnez-s%C3%A1nchez-21905b198"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+      <li><a href="https://instagram.com/panch.05?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+    </ul>
+
+  </footer>
+    
+
+  <script src="challenge.js"></script>
+
+</body>
+</html>
